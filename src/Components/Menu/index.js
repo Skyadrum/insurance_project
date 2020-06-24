@@ -17,7 +17,7 @@ const Menu = () => {
             </Link>
 
             <Link to="/claimForm">
-              <Button variant="outline-success" className='btn' >Polices</Button>
+              <Button variant="outline-success" className='btn' >Claims</Button>
             </Link>
           </Nav>
       </Navbar>

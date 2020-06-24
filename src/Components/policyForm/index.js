@@ -12,9 +12,8 @@ const policyForm = (props) => {
   const handlerCreate = () => {
       const policyObj = {
           name: nameRef.current.value,
-          amount: amountRef.current.vale
+          amount: parseInt(amountRef.current.value)
       }
-      console.log('nameRef', policyObj.amount);
       props.createPolicy(policyObj.name, policyObj.amount)
   }
 

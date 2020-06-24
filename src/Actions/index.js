@@ -15,12 +15,12 @@ export const deletePolicy = (name) => {
     }
 }
 
-export const createClaim = (information) => {
+export const createClaim = (info) => {
     return {
         type: 'CREATE_CLAIM',
         payload: {
-            name: information.name,
-            amount: information.amount
+            name: info.name,
+            amount: info.amount
         }
     }
 }

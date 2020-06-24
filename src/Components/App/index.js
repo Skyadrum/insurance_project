@@ -3,6 +3,7 @@ import Menu from '../Menu'
 import { BrowserRouter, Route } from 'react-router-dom'
 import policyForm from '../policyForm'
 import claimForm from '../claimForm'
+import NamesList from '../NamesList'
 
 const App = () => {
   return (

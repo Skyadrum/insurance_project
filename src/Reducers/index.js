@@ -22,7 +22,7 @@ const financesReducer = (totalAmount = 120, action) => {
         return totalAmount - action.payload.amount
       default:
         return totalAmount
-    }
+    } 
 }
 
 const claimReducer = (listOfClaims = [], action) => {
